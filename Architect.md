@@ -22,4 +22,8 @@ Networking
 => Đơn giản chạy với layer-2 service (bridging/switching) và phân chia VLAN. Bride mạng ảo đến mạng vật lý và dựa vào hạ tầng mạng
 vật lý cho các service layer-3 (routing).
 => Yếu điểm là thiếu hỗ trợ với các self-service networks,layer-3 (routing) service ...
-![]()
+![](https://github.com/kidluc/openstack_learning/blob/master/pic/1.png)
+
+- Option 2: Self-service network
+=> Cung cấp các options cho layer-3 (routing) network bằng viêc sử dụng overlay methods như VXLAN. (VD: Routes mạng ảo ra mạng vật lý sử dụng NAT). Ngoài ra còn cung cấp service nâng cao như LBaas hay FWaas
+![](https://github.com/kidluc/openstack_learning/blob/master/pic/Screenshot%20from%202018-02-22%2010-56-55.png)
